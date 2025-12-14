@@ -1,0 +1,29 @@
+@startuml
+title Завдання 1: Button Hierarchy
+
+class GrafObject {
+  + x: int
+  + y: int
+  __init__(x, y)
+}
+
+class Rectangle {
+  + width: int
+  + height: int
+  __init__(width, height)
+}
+
+class Clickable {
+  + on_click(): void
+}
+
+class Button {
+  + color_button: str
+  __init__(x, y, width, height, color)
+}
+
+' Стрілки наслідування
+GrafObject <|-- Button
+Rectangle <|-- Button
+Clickable <|-- Button
+@enduml

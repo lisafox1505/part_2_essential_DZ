@@ -1,0 +1,34 @@
+@startuml
+title Завдання 7: Vehicles Hierarchy
+
+abstract class Vehicle {
+  + brand: str
+  + model: str
+  + year: int
+  + mileage: int
+  + color: str
+  + info(): void
+}
+
+class PassengerCar {
+  + body_type: str
+  + seats_count: int
+  + info(): void
+}
+
+class FreightTruck {
+  + load_capacity_kg: int
+  + trailer_attached: bool
+  + info(): void
+}
+
+class ElectricCar {
+  + battery_capacity_kwh: int
+  + range_per_charge: int
+  + info(): void
+}
+
+Vehicle <|-- PassengerCar
+Vehicle <|-- FreightTruck
+Vehicle <|-- ElectricCar
+@enduml

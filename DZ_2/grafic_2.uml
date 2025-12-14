@@ -1,0 +1,27 @@
+@startuml
+title Завдання 3: MRO Hierarchy
+
+class A {
+}
+
+class B {
+}
+
+class C {
+}
+
+class D {
+}
+
+' A - родич для B и C
+A <|-- B
+A <|-- C
+
+' B и C - родич для D
+B <|-- D
+C <|-- D
+
+note bottom of D
+  MRO: D -> B -> C -> A
+end note
+@enduml
