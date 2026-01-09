@@ -1,0 +1,10 @@
+No information, +380951234567, o.kovalenko@example.com
+22.08.1990, +380679876543, hanna.m@test.ua
+05.02.1982, 380501112233, dmytro.l@ukr.net
+15.11.1995, +380934445566, shevchenko_olena@gmail.com
+30.01.1988, +380445556677, i.belkin@office.com
+10.04.1992, +380667778899, s.franko@service.ua
+06.01.1980, +380990001122, v.stus@poetry.com
+19.07.2000, 380631234321, masha_bondar@mail.ua
+03.12.1987, +380975554433, a.chum@tech.io
+28.09.1993, +380509998877, No information
